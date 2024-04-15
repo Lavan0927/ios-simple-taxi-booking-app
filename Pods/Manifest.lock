@@ -1,0 +1,24 @@
+PODS:
+  - CountryPickerSwift (1.8.2)
+  - GoogleMaps (8.3.1):
+    - GoogleMaps/Maps (= 8.3.1)
+  - GoogleMaps/Base (8.3.1)
+  - GoogleMaps/Maps (8.3.1):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - CountryPickerSwift
+  - GoogleMaps (= 8.3.1)
+
+SPEC REPOS:
+  trunk:
+    - CountryPickerSwift
+    - GoogleMaps
+
+SPEC CHECKSUMS:
+  CountryPickerSwift: b2cd8b391a0222bd9a97d09ea30426303adac810
+  GoogleMaps: b47b67bd63d708477d6ff457da2d695c0d8ceb5f
+
+PODFILE CHECKSUM: 793fafab9f791277f387096c03dbbf80a124428e
+
+COCOAPODS: 1.12.1

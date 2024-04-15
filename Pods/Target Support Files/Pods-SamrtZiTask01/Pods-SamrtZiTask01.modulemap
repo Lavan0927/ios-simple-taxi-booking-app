@@ -1,0 +1,6 @@
+framework module Pods_SamrtZiTask01 {
+  umbrella header "Pods-SamrtZiTask01-umbrella.h"
+
+  export *
+  module * { export * }
+}

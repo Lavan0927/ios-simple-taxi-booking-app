@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 47C5605859EECC4DAA8398F8266E85C4 /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+				9801DC96C44A55EEBAB39A01F1BB925C /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				5FB02CDAAB81498C1DCE6B78A56B9102 /* PBXTargetDependency */,
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2C15023BEA93D61E15E32A86ACE2AA37 /* CountryPickerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7D0514C7E437CFFD08E3EFF5E69475 /* CountryPickerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7A96AA11CD2262577F97E8B2E0154F /* CountryViewTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E948323B19A56DA9CF7A5880F0C4376 /* CountryViewTheme.swift */; };
+		412967D8EB76D4C2E9DA5264666603B4 /* Pods-SamrtZiTask01-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374F27FAA33E033A7D93DA6804D9C9FA /* Pods-SamrtZiTask01-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615597EE37CE3951F74A3F89D8085DD9 /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D87E9B89830FFF2498632403F3D53A /* Flags.xcassets */; };
+		7CD3A3091F876A883D6717560CAFB05D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5565E2315A79E94D9EE1A759AF621AC /* GoogleMaps.bundle */; };
+		83C9899D012CBF9976E540BB86FCB1E4 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70F77FAA8EBFD6425E57E5D92CA69341 /* CountryPicker.bundle */; };
+		8BB51C77A8B3D9CC9D915F5EAB7EBF16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98C1FA921F8ADBEAD4704DD70D5EAEFE /* CountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642AB1C396E4B5C86F841A1D42FD31DC /* CountryView.xib */; };
+		9C14577815A0868893010715B3A0C14B /* CountryPickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC12446260770002DF24FB9D70A631 /* CountryPickerSwift-dummy.m */; };
+		B41FDC7695086E596CF1EA5995D4BE91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3FCB5E2465AE999BE4457903A9C4B1E /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23288E2FF370B1A78F6BF973FEE96171 /* CountryView.swift */; };
+		E76BEE66F485AF6D94EC526EC882C48A /* Pods-SamrtZiTask01-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D18599A12F7005F5572DAA5F56A7FD /* Pods-SamrtZiTask01-dummy.m */; };
+		FAB0B048C3BD340A97F2F8CA3A9349D1 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9041A981787662F8BD67997C3564F33 /* CountryPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA5198F8CC0CF7B18E090CE4AD61ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		BB70FD0632CD72C44D4FCACD239753AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B026DDDF280F148DD87281679B51154;
+			remoteInfo = "GoogleMaps-GoogleMapsResources";
+		};
+		CF845EBA4E4789940419ECE068BC8D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E66814C3CD82F965BA3B2704535DEA19;
+			remoteInfo = CountryPickerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000BA81659C3AA56EF6568F4FF6A3AA9 /* Pods-SamrtZiTask01-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SamrtZiTask01-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E948323B19A56DA9CF7A5880F0C4376 /* CountryViewTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryViewTheme.swift; path = CountryPicker/Classes/CountryViewTheme.swift; sourceTree = "<group>"; };
+		0EBD9635261659B74E9781588F20F66A /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		0ED68730F4A6E0AAD9AEC9FB5EBDA63B /* Pods-SamrtZiTask01-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SamrtZiTask01-resources.sh"; sourceTree = "<group>"; };
+		0F79CB759687A6AF2C18DB7C1B84A259 /* CountryPickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerSwift.modulemap; sourceTree = "<group>"; };
+		0FF04E313A2DA4BCC9F466ECB3D5B107 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		14D87E9B89830FFF2498632403F3D53A /* Flags.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Flags.xcassets; path = CountryPicker/Classes/Flags.xcassets; sourceTree = "<group>"; };
+		20819DBADD2C1F1F3BE2FC1D3DBD783E /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleMaps-GoogleMapsResources"; path = GoogleMapsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		23288E2FF370B1A78F6BF973FEE96171 /* CountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryView.swift; path = CountryPicker/Classes/CountryView.swift; sourceTree = "<group>"; };
+		2EDD2C4B9117EE77C928EBDD49CBDAF8 /* Pods-SamrtZiTask01-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SamrtZiTask01-frameworks.sh"; sourceTree = "<group>"; };
+		3692D0D5FD83B08EEDE6C40DB4D0DD5A /* ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist"; sourceTree = "<group>"; };
+		374F27FAA33E033A7D93DA6804D9C9FA /* Pods-SamrtZiTask01-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SamrtZiTask01-umbrella.h"; sourceTree = "<group>"; };
+		3B1386E9C415A80D192717B7D0A8E2BA /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		438AA9D246B910C470C5639C48FABB8C /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = Maps/Sources/dummy.h; sourceTree = "<group>"; };
+		4F7D0514C7E437CFFD08E3EFF5E69475 /* CountryPickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerSwift-umbrella.h"; sourceTree = "<group>"; };
+		52C86ACD8AE0BBA8A0C050532C6C87D8 /* CountryPickerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CountryPickerSwift-Info.plist"; sourceTree = "<group>"; };
+		560AB06D68F470172307F5EF827DF4F2 /* CountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642AB1C396E4B5C86F841A1D42FD31DC /* CountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryView.xib; path = CountryPicker/Classes/CountryView.xib; sourceTree = "<group>"; };
+		70F77FAA8EBFD6425E57E5D92CA69341 /* CountryPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CountryPicker.bundle; path = CountryPicker/Assets/CountryPicker.bundle; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		763444BC4A47C38B5E0CE9BE91F46FCA /* CountryPickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerSwift-prefix.pch"; sourceTree = "<group>"; };
+		84D18599A12F7005F5572DAA5F56A7FD /* Pods-SamrtZiTask01-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SamrtZiTask01-dummy.m"; sourceTree = "<group>"; };
+		86E9DAE2F08E02D4FD793B226CBB6724 /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = Base/Sources/dummy.h; sourceTree = "<group>"; };
+		8BFC12446260770002DF24FB9D70A631 /* CountryPickerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerSwift-dummy.m"; sourceTree = "<group>"; };
+		96727B408485D03FE2CA1CBC038C5BA5 /* Pods-SamrtZiTask01 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SamrtZiTask01"; path = Pods_SamrtZiTask01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2026C74FAEB68F7AF487FE4E061824 /* CountryPickerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44C7C445CC24BB0FED24818C6697C54 /* Pods-SamrtZiTask01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SamrtZiTask01.modulemap"; sourceTree = "<group>"; };
+		A9041A981787662F8BD67997C3564F33 /* CountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPicker.swift; path = CountryPicker/Classes/CountryPicker.swift; sourceTree = "<group>"; };
+		AF1D357AFE5AD5F3FF0EA2E13D600664 /* Pods-SamrtZiTask01-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SamrtZiTask01-Info.plist"; sourceTree = "<group>"; };
+		C2CF377EC55052F3DD3A23538852F9F7 /* Pods-SamrtZiTask01-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SamrtZiTask01-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C54ADE3A8186D96747C0946222D2846B /* CountryPickerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerSwift.release.xcconfig; sourceTree = "<group>"; };
+		C5565E2315A79E94D9EE1A759AF621AC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Resources/GoogleMapsResources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		D3275BDEC8151F6D85AAE3ADAB8AAD3D /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		E78D2FC63899014461B427BFADD4F98B /* Pods-SamrtZiTask01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SamrtZiTask01.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFE76F6EAD943CDE0AA5224999F7C2C /* Pods-SamrtZiTask01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SamrtZiTask01.release.xcconfig"; sourceTree = "<group>"; };
+		F4C022DF80CA4C82A81DA265F8E608EA /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3338C785B8E924401B60DD64174C7ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4F9FFA567F5D7A4F91573E66F608CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB51C77A8B3D9CC9D915F5EAB7EBF16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98107068E2B7F2702129DB14C00E6718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41FDC7695086E596CF1EA5995D4BE91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF9AC19BA50E95E7C21D3122D5EF15A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24DBAA628933F1367415A56608A6507 /* CountryPickerSwift */,
+				8F41A7B83C46D067E19E49B6D67FD78A /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		12189A6228A354C8E4012C810F65A284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBD9635261659B74E9781588F20F66A /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24588A345AD4E9750E1B981E6CE82531 /* Pods-SamrtZiTask01 */ = {
+			isa = PBXGroup;
+			children = (
+				A44C7C445CC24BB0FED24818C6697C54 /* Pods-SamrtZiTask01.modulemap */,
+				C2CF377EC55052F3DD3A23538852F9F7 /* Pods-SamrtZiTask01-acknowledgements.markdown */,
+				000BA81659C3AA56EF6568F4FF6A3AA9 /* Pods-SamrtZiTask01-acknowledgements.plist */,
+				84D18599A12F7005F5572DAA5F56A7FD /* Pods-SamrtZiTask01-dummy.m */,
+				2EDD2C4B9117EE77C928EBDD49CBDAF8 /* Pods-SamrtZiTask01-frameworks.sh */,
+				AF1D357AFE5AD5F3FF0EA2E13D600664 /* Pods-SamrtZiTask01-Info.plist */,
+				0ED68730F4A6E0AAD9AEC9FB5EBDA63B /* Pods-SamrtZiTask01-resources.sh */,
+				374F27FAA33E033A7D93DA6804D9C9FA /* Pods-SamrtZiTask01-umbrella.h */,
+				E78D2FC63899014461B427BFADD4F98B /* Pods-SamrtZiTask01.debug.xcconfig */,
+				EBFE76F6EAD943CDE0AA5224999F7C2C /* Pods-SamrtZiTask01.release.xcconfig */,
+			);
+			name = "Pods-SamrtZiTask01";
+			path = "Target Support Files/Pods-SamrtZiTask01";
+			sourceTree = "<group>";
+		};
+		426CD9D523C00B9E5C0176F45022C249 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70F77FAA8EBFD6425E57E5D92CA69341 /* CountryPicker.bundle */,
+				642AB1C396E4B5C86F841A1D42FD31DC /* CountryView.xib */,
+				14D87E9B89830FFF2498632403F3D53A /* Flags.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4417B881DFDAA09D64AD4943BC69301A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				86E9DAE2F08E02D4FD793B226CBB6724 /* dummy.h */,
+				12189A6228A354C8E4012C810F65A284 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F61AFE65A119F96317F5BD8F55C7843 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F79CB759687A6AF2C18DB7C1B84A259 /* CountryPickerSwift.modulemap */,
+				8BFC12446260770002DF24FB9D70A631 /* CountryPickerSwift-dummy.m */,
+				52C86ACD8AE0BBA8A0C050532C6C87D8 /* CountryPickerSwift-Info.plist */,
+				763444BC4A47C38B5E0CE9BE91F46FCA /* CountryPickerSwift-prefix.pch */,
+				4F7D0514C7E437CFFD08E3EFF5E69475 /* CountryPickerSwift-umbrella.h */,
+				9D2026C74FAEB68F7AF487FE4E061824 /* CountryPickerSwift.debug.xcconfig */,
+				C54ADE3A8186D96747C0946222D2846B /* CountryPickerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountryPickerSwift";
+			sourceTree = "<group>";
+		};
+		6C0AC6E13CD25FBC2DD8778AD5EED270 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24588A345AD4E9750E1B981E6CE82531 /* Pods-SamrtZiTask01 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D164C7AB90F1B553FEAC1A06A464F45 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				438AA9D246B910C470C5639C48FABB8C /* dummy.h */,
+				BCAB644A30693224E72AB5B0DB6F59DE /* Frameworks */,
+				E998090C39E8E9A12C52E598668F0DC1 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		8F41A7B83C46D067E19E49B6D67FD78A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				4417B881DFDAA09D64AD4943BC69301A /* Base */,
+				7D164C7AB90F1B553FEAC1A06A464F45 /* Maps */,
+				F1D72C4EC026BEC89A17C9669E081B11 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		BCAB644A30693224E72AB5B0DB6F59DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20819DBADD2C1F1F3BE2FC1D3DBD783E /* GoogleMaps.xcframework */,
+				3B1386E9C415A80D192717B7D0A8E2BA /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0FF9AC19BA50E95E7C21D3122D5EF15A /* Pods */,
+				E17ECDD0CB8BA5CBC55B50C217213076 /* Products */,
+				6C0AC6E13CD25FBC2DD8778AD5EED270 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D24DBAA628933F1367415A56608A6507 /* CountryPickerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A9041A981787662F8BD67997C3564F33 /* CountryPicker.swift */,
+				23288E2FF370B1A78F6BF973FEE96171 /* CountryView.swift */,
+				0E948323B19A56DA9CF7A5880F0C4376 /* CountryViewTheme.swift */,
+				426CD9D523C00B9E5C0176F45022C249 /* Resources */,
+				5F61AFE65A119F96317F5BD8F55C7843 /* Support Files */,
+			);
+			path = CountryPickerSwift;
+			sourceTree = "<group>";
+		};
+		E17ECDD0CB8BA5CBC55B50C217213076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560AB06D68F470172307F5EF827DF4F2 /* CountryPicker.framework */,
+				21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */,
+				96727B408485D03FE2CA1CBC038C5BA5 /* Pods-SamrtZiTask01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E998090C39E8E9A12C52E598668F0DC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5565E2315A79E94D9EE1A759AF621AC /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F1D72C4EC026BEC89A17C9669E081B11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3275BDEC8151F6D85AAE3ADAB8AAD3D /* GoogleMaps-xcframeworks.sh */,
+				F4C022DF80CA4C82A81DA265F8E608EA /* GoogleMaps.debug.xcconfig */,
+				0FF04E313A2DA4BCC9F466ECB3D5B107 /* GoogleMaps.release.xcconfig */,
+				3692D0D5FD83B08EEDE6C40DB4D0DD5A /* ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DBD27344D3445B2EA7B87A62AFA1C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412967D8EB76D4C2E9DA5264666603B4 /* Pods-SamrtZiTask01-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE31AF557AC07266080E775F19EF37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C15023BEA93D61E15E32A86ACE2AA37 /* CountryPickerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00254B078A532D92BDEE9FF3C9E75000 /* Pods-SamrtZiTask01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F907C14295968AA10058C009093DC /* Build configuration list for PBXNativeTarget "Pods-SamrtZiTask01" */;
+			buildPhases = (
+				5DBD27344D3445B2EA7B87A62AFA1C61 /* Headers */,
+				CA57199C226287764F948A4F67F863AC /* Sources */,
+				6F4F9FFA567F5D7A4F91573E66F608CF /* Frameworks */,
+				49F893E88905AB14E7F7DCDF6450650F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E56680DBAE9E37FAB9F70CC50A696 /* PBXTargetDependency */,
+				D2799DABE60C322AA9C9C10640F1D11C /* PBXTargetDependency */,
+			);
+			name = "Pods-SamrtZiTask01";
+			productName = Pods_SamrtZiTask01;
+			productReference = 96727B408485D03FE2CA1CBC038C5BA5 /* Pods-SamrtZiTask01 */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4713D333BEDDAD1CAC77EFCE5747818 /* Build configuration list for PBXNativeTarget "GoogleMaps-GoogleMapsResources" */;
+			buildPhases = (
+				E734FE77DC16CC771D7888F5C7281BE7 /* Sources */,
+				3338C785B8E924401B60DD64174C7ABA /* Frameworks */,
+				2791E288C2A817E7682C795E094A51F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleMaps-GoogleMapsResources";
+			productName = GoogleMapsResources;
+			productReference = 21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E66814C3CD82F965BA3B2704535DEA19 /* CountryPickerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C903EB518308D9BA8FEDDAC7F6C5F78 /* Build configuration list for PBXNativeTarget "CountryPickerSwift" */;
+			buildPhases = (
+				66AE31AF557AC07266080E775F19EF37 /* Headers */,
+				C3D6C0CC3EE28F052BEEE8BB47EEF34E /* Sources */,
+				98107068E2B7F2702129DB14C00E6718 /* Frameworks */,
+				EEB1CF704D1B74B9A9B2F2AC303594C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryPickerSwift;
+			productName = CountryPicker;
+			productReference = 560AB06D68F470172307F5EF827DF4F2 /* CountryPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E17ECDD0CB8BA5CBC55B50C217213076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66814C3CD82F965BA3B2704535DEA19 /* CountryPickerSwift */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */,
+				00254B078A532D92BDEE9FF3C9E75000 /* Pods-SamrtZiTask01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2791E288C2A817E7682C795E094A51F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3A3091F876A883D6717560CAFB05D /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F893E88905AB14E7F7DCDF6450650F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB1CF704D1B74B9A9B2F2AC303594C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C9899D012CBF9976E540BB86FCB1E4 /* CountryPicker.bundle in Resources */,
+				98C1FA921F8ADBEAD4704DD70D5EAEFE /* CountryView.xib in Resources */,
+				615597EE37CE3951F74A3F89D8085DD9 /* Flags.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9801DC96C44A55EEBAB39A01F1BB925C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D6C0CC3EE28F052BEEE8BB47EEF34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0B048C3BD340A97F2F8CA3A9349D1 /* CountryPicker.swift in Sources */,
+				9C14577815A0868893010715B3A0C14B /* CountryPickerSwift-dummy.m in Sources */,
+				D3FCB5E2465AE999BE4457903A9C4B1E /* CountryView.swift in Sources */,
+				3F7A96AA11CD2262577F97E8B2E0154F /* CountryViewTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA57199C226287764F948A4F67F863AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76BEE66F485AF6D94EC526EC882C48A /* Pods-SamrtZiTask01-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E734FE77DC16CC771D7888F5C7281BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB02CDAAB81498C1DCE6B78A56B9102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleMaps-GoogleMapsResources";
+			target = 7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */;
+			targetProxy = BB70FD0632CD72C44D4FCACD239753AE /* PBXContainerItemProxy */;
+		};
+		CE8E56680DBAE9E37FAB9F70CC50A696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerSwift;
+			target = E66814C3CD82F965BA3B2704535DEA19 /* CountryPickerSwift */;
+			targetProxy = CF845EBA4E4789940419ECE068BC8D25 /* PBXContainerItemProxy */;
+		};
+		D2799DABE60C322AA9C9C10640F1D11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 8DA5198F8CC0CF7B18E090CE4AD61ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E71D8E24C878F91BDD88375F268B840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C022DF80CA4C82A81DA265F8E608EA /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleMaps";
+				IBSC_MODULE = GoogleMaps;
+				INFOPLIST_FILE = "Target Support Files/GoogleMaps/ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = GoogleMapsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		372578239686DFE74865590EF122AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF04E313A2DA4BCC9F466ECB3D5B107 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		539EAA585050DEF26599493CACF7BA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78D2FC63899014461B427BFADD4F98B /* Pods-SamrtZiTask01.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SamrtZiTask01/Pods-SamrtZiTask01-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SamrtZiTask01/Pods-SamrtZiTask01.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59CC49E4FF90DCD865050EC34933B4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C022DF80CA4C82A81DA265F8E608EA /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		818382D176E723A12B5287D63E401FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFE76F6EAD943CDE0AA5224999F7C2C /* Pods-SamrtZiTask01.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SamrtZiTask01/Pods-SamrtZiTask01-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SamrtZiTask01/Pods-SamrtZiTask01.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		961F2EFFEBE5F85FBC4F1622AB4CD89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2026C74FAEB68F7AF487FE4E061824 /* CountryPickerSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerSwift/CountryPickerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift.modulemap";
+				PRODUCT_MODULE_NAME = CountryPicker;
+				PRODUCT_NAME = CountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD36331FDC159F30D02085BDA2CD91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF04E313A2DA4BCC9F466ECB3D5B107 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleMaps";
+				IBSC_MODULE = GoogleMaps;
+				INFOPLIST_FILE = "Target Support Files/GoogleMaps/ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = GoogleMapsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E1E67FC9F7E1027379302D1E95996201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54ADE3A8186D96747C0946222D2846B /* CountryPickerSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerSwift/CountryPickerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift.modulemap";
+				PRODUCT_MODULE_NAME = CountryPicker;
+				PRODUCT_NAME = CountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8F907C14295968AA10058C009093DC /* Build configuration list for PBXNativeTarget "Pods-SamrtZiTask01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539EAA585050DEF26599493CACF7BA0B /* Debug */,
+				818382D176E723A12B5287D63E401FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C5605859EECC4DAA8398F8266E85C4 /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CC49E4FF90DCD865050EC34933B4DC /* Debug */,
+				372578239686DFE74865590EF122AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C903EB518308D9BA8FEDDAC7F6C5F78 /* Build configuration list for PBXNativeTarget "CountryPickerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961F2EFFEBE5F85FBC4F1622AB4CD89A /* Debug */,
+				E1E67FC9F7E1027379302D1E95996201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4713D333BEDDAD1CAC77EFCE5747818 /* Build configuration list for PBXNativeTarget "GoogleMaps-GoogleMapsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E71D8E24C878F91BDD88375F268B840 /* Debug */,
+				BDD36331FDC159F30D02085BDA2CD91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
